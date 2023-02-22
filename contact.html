@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <script src="https://kit.fontawesome.com/34b7579f38.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    }
+
+    header{
+        background: #000;
+        width:100%;
+        overflow: hidden;
+        color: #fff;
+    }
+
+nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.menu{
+    width:60%;
+    padding: 12px;
+}
+.menu ul{
+   display: flex;
+   justify-content: space-between;
+   line-height: 20px;
+   font-size: 20px;
+   
+}
+.menu ul li{
+    list-style: none;
+    cursor: pointer;
+}
+.menu ul li:hover{
+    color: #d62976;
+}
+
+section{
+    background: #7543b2fe;
+    width: 100%;
+}
+
+.title{
+    width: 80%;
+    margin: auto;
+    color: #fff;
+}
+.title h1{
+    width:20%;
+    margin: auto;
+    padding-top: 50px;
+    font-size: 40px;
+}
+.title p{
+    padding-top: 30px;
+    padding-bottom: 70px;
+    width:60%;
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+}
+
+.form-container{
+    background: #fff;
+    /* border: 2px solid black; */
+    width:40%;
+    overflow: hidden;
+    margin: auto;
+    transform: translateY(-50px);
+    
+}
+.content{
+    padding-top: 30px;
+    width:90%;
+    margin: auto;
+}
+
+/* label{
+   margin-top: 10px;
+} */
+input{
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border:1px solid #000;
+}
+#msg{
+    margin-top: 10px;
+    width: 100%;
+    border:1px solid #000;
+
+}
+
+.btn{
+    margin-top: 20px;
+    /* margin-bottom: 60px; */
+    width:20%;
+    cursor: pointer;
+    background: #7543b2fe;
+    color: #fff;
+
+}
+
+footer{
+    background: #000;
+    width:100%;
+    overflow:hidden;
+    color: #fff;
+
+}
+.box{
+    width:90%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.social{
+    width: 20%;
+    margin: auto;
+    margin-right: 100px;
+}
+.social a i{
+    color: #fff;
+    font-size: 25px;
+    padding: 5px;
+}
+.social a i:hover{
+    color: #d62976;
+
+}
+
+.b{
+    padding: 20px 0;
+
+}
+
+.b ul li{
+    list-style: none;
+}
+</style>
+
+<body>
+    <header>
+        <nav>
+        <h1 style="padding: 10px;">Logo</h1>
+
+        <div class="menu">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact us</li>
+                <li>Services</li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+
+  <section>
+    <div class="title">
+       <h1>Contact Us</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quae, beatae id quibusdam in magni nostrum ipsum sed eius eos maiores repellendus numquam vitae explicabo commodi hic fuga facere! Quia?Lorem ipsum dolor sit amet.</p>
+    </div>
+  </section>
+  <div class="form-container">
+       <div class="content">
+        <form action="">
+           <label for="">Your Name</label>
+           <input type="text" placeholder="Enter your Name" required>
+           <label for="">Your email Address</label>
+           <input type="email" placeholder="you@example.com" required>
+           <label for="">How can we help?</label>
+           <textarea name="" id="msg" cols="73" rows="5" ></textarea>
+           
+           <input type="submit" class="btn">
+        </form>
+       </div>
+  </div>  
+  
+  
+  <footer>
+   <div class="box">
+       <h1 style="display: inline-block; width:30%">Footer content</h1>
+       <div class="social">
+        <a href="" ><i class="fa-brands fa-facebook" ></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+        
+       </div>
+   </div>
+   <div class="box">
+    <div class="b">
+        <h3 style="display: inline-block; width:30%; padding:10px 0;">Products</h3>
+     <ul>
+        <li>Electronic</li>
+        <li>Fashion</li>
+        <li>Mobile</li>
+        <li>Best seller</li>
+    </ul>
+    </div>
+
+    <div class="b">
+        <h3 style="display: inline-block; width:30%; padding:10px 0;">Products</h3>
+ <ul>
+        <li>Electronic</li>
+        <li>Fashion</li>
+        <li>Mobile</li>
+        <li>Best seller</li>
+    </ul>
+    </div>
+    <div class="b">
+        <h3 style="display: inline-block; width:30%; padding:10px 0;">Products</h3>
+    <ul>
+        <li>Electronic</li>
+        <li>Fashion</li>
+        <li>Mobile</li>
+        <li>Best seller</li>
+    </ul>
+    </div>
+    <div class="b">
+        <h3 style="display: inline-block; width:30%; padding:10px 0;">Products</h3>
+  <ul>
+        <li>Electronic</li>
+        <li>Fashion</li>
+        <li>Mobile</li>
+        <li>Best seller</li>
+    </ul>   
+    </div>
+   </div>
+  </footer>
+</body>
+</html>
